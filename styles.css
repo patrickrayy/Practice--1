@@ -1,0 +1,63 @@
+/* Header styling */
+.header {
+    background-image: url('https://example.com/makanan-background.jpg'); /* Ganti dengan URL gambar makanan */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 50px 0;
+}
+
+/* Relative position */
+.relative-position {
+    position: relative;
+    left: 50px;
+    border: 2px solid #FF6347;
+    background-color: #FFEBEE;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Block display */
+.block-element {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #FFFACD;
+    border: 2px solid #FFA07A;
+    margin-bottom: 20px;
+}
+
+/* Inline display */
+.inline-element {
+    margin-bottom: 20px;
+    background-color: #FFF0F5;
+    padding: 10px;
+}
+
+/* Fixed position */
+.fixed-element {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #FFD700;
+    padding: 10px;
+    border: 2px solid #FF4500;
+    color: #000;
+}
+
+/* Scrollable content */
+.scrollable-content {
+    height: 300px;
+    overflow-y: scroll;
+    padding: 20px;
+    border: 2px solid #ccc;
+    background-color: #F5F5DC;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+/* Card styling */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
